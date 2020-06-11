@@ -8,5 +8,8 @@
 - Github Overview
 - Markdown language for README files
 - JavaScript ES6+ features
+- How to link an image in a README file
+
+## [CIT 281 UOregon page](https://pages.uoregon.edu/plutz/281/)
 
 ![](images/githubcat.png)
