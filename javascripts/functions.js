@@ -31,3 +31,19 @@ let arrMax = (arr) => {
    }
    return sum;
  };
+
+//Req. 3e
+function alphaPosition(ch) {
+  ch.split(' ').join('');
+  var chari = "";
+  var arr = [];
+  var alphabet = "abcdefghijklmnopqrstuvwxyz".split('');
+  for(var i = 0; i < ch.len; i++){
+    chari = ch.charAt(i).toLowerCase();
+    if(alphabet.indexOf(chari) > -1){
+      arr.push(alphabet.indexOf(chari));
+    }
+  }
+  return arr;
+}
+console.log(alphaPosition(""));
